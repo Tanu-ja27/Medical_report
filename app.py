@@ -3,7 +3,8 @@ import streamlit as st
 from transformers import pipeline
 
 # Load summarization model
-summarizer = pipeline("summarization", model="t5-base")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+
 
 # App title
 st.set_page_config(page_title="Medical Report Summarizer")
