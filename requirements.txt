@@ -3,3 +3,4 @@ transformers
 pandas
 evaluate
 torch
+huggingface_hub
